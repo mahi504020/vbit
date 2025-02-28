@@ -8,7 +8,7 @@ pipeline {
                     checkout([
                         $class: 'GitSCM',
                         branches: [[name: '*/main']], // Ensure you use the correct branch
-                        userRemoteConfigs: [[url: 'https://github.com/mahi504020/hello.git']]
+                        userRemoteConfigs: [[url: 'https://github.com/mahi504020/vbit.git']]
                     ])
                 }
             }
